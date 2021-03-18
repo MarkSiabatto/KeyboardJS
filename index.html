@@ -215,6 +215,26 @@
             </svg>
             </button>
         </td>
+        <td>
+            <button id="btnClear">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-square-x"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#000000"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <rect x="4" y="4" width="16" height="16" rx="2" />
+                <path d="M10 10l4 4m0 -4l-4 4" />
+            </svg>
+            </button>
+        </td>
         </tr>
         <!-- First Row of letters -->
         <tr>
@@ -341,7 +361,7 @@
         </td>
         <td>
             <button id="btnU">
-            <svg
+             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-letter-u"
                 width="44"
@@ -752,23 +772,44 @@
             </button>
         </td>
         <td>
-            <button id="btnComma" style="font-size: 40px; width: 60px">
+            <button id="btnComma" style="font-size: 42px; width: 60px">
             ,
             </button>
         </td>
         <td>
-            <button id="btnPeriod" style="font-size: 40px; width: 60px">
+            <button id="btnPeriod" style="font-size: 42px; width: 60px">
             .
             </button>
         </td>
         <td>
-            <button id="btnSlash" style="font-size: 40px; width: 60px">
+            <button id="btnSlash" style="font-size: 42px; width: 60px">
             /
+            </button>
+        </td>
+        <td rowspan="2">
+            <button style="height: 120px" id="btnRtrn">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-corner-down-left"
+                width="44"
+                height="44"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="#2c3e50"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+            >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M18 6v6a3 3 0 0 1 -3 3h-10l4 -4m0 8l-4 -4" />
+            </svg>
             </button>
         </td>
         </tr>
         <!-- Space bar divs -->
         <tr>
+        <td></td>
+        <td></td>
         <td>
             <button id="btnGh">
             <svg
@@ -790,8 +831,8 @@
             </svg>
             </button>
         </td>
-        <td>
-            <button id="btnSpace">
+        <td colspan="5">
+            <button style="width: 250px" id="btnSpace">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="icon icon-tabler icon-tabler-space"
@@ -809,6 +850,8 @@
             </svg>
             </button>
         </td>
+        <td></td>
+        <td></td>
         </tr>
     </table>
     </div>
