@@ -1,17 +1,35 @@
+body{
+    background-color: #a4a4a4;
+}
+.heading{
+    text-align: center;
+}
 .display{
     border: 15px solid black;
     height: 200px;
     width: 500px;
-    background-color: gray;
+    background-color: #cccccc;
     margin:auto;
     font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #7c7c7c;
 }
 .keyboard{
-    background-color: rgb(206, 40, 40);
+    background-color: #545454;
+    margin-top: 20px;
 }
 .center{
     margin: auto;
     width: 50%;
     border: 5px black;
     padding: 10px;
+}
+.footer{
+    background-color: #7c7c7c;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
 }
